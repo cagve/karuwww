@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refs on Carlos Aguilera Ventura</title>
+    <link>http://example.org/ref/</link>
+    <description>Recent content in Refs on Carlos Aguilera Ventura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/ref/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An educational epistemic model checker for Philosophy students</title>
+      <link>http://example.org/ref/ventura2023educational/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/ventura2023educational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherentist vs. foundationalist belief revision: bringing them together</title>
+      <link>http://example.org/ref/venturacoherentist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/venturacoherentist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counterfactual reasoning via grounded distance</title>
+      <link>http://example.org/ref/aguilera2023counterfactual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2023counterfactual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diamonds, Boxes and Reasonables Doubts.</title>
+      <link>http://example.org/ref/aguilera2025ite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2025ite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ensayos sobre lógica y lenguaje en honor a Alfredo Burrieza</title>
+      <link>http://example.org/ref/ventura2023ensayos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/ventura2023ensayos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimal Change in Modal Logic S5</title>
+      <link>http://example.org/ref/aguilera2025minimal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2025minimal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

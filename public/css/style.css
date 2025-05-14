@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+html{
+	--s: 100px; 
+	--c1: #5A3D31;
+	--c2: #E5EDB8;
+
+	background:
+	radial-gradient(#0000 50%,var(--c1) 52% 55%,var(--c2) 57%)
+	0 0/var(--s) var(--s),
+	repeating-linear-gradient(45deg,var(--c1) 0 25%,var(--c2) 0 50%)
+	0 0/calc(2*var(--s)) calc(2*var(--s))
+}
+
+body {
+	font-family: 'Overlock',sans-serif;
+	font-size: 18px;
+	/* background-image: url("/img/background.jpg"); */
+	/* background-size: cover; */
+
+}
+
+
+#main-container{
+	background-color: #fefffe;
+	border-radius: 5px;
+	margin-left: auto;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	margin-right: auto;
+	width: 1000px;
+	overflow: hidden;
+	text-align: left;
+	padding: 10px;
+}
+
+#header-container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+a {
+	color:var(--c1);
+	color:#b1393d;
+}
+
+
+#menu{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+#menu a {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#profile-pic {
+	width:200px;
+}
+
+#content {
+	display:flex;
+}
+
+#col-1{
+	margin:40px;
+	max-width: 50%;
+}
+
+#col-2{
+	margin:40px;
+	max-width: 50%;
+}
+
+
+/* BIBTEX */
+
+ul.references {
+  --icon-size: .8em;
+  --gutter: .5em;
+  padding: 0 1em 0 var(--icon-size);
+}
+
+ul.references > li {
+  padding-left: var(--gutter);
+}
+
+ul.references > li::marker {
+  font-family: FontAwesome;
+  font-size: var(--icon-size);
+}
+
+.bib-item {
+  padding: 0 0 0 .5em;
+}
+.bib-title{
+	font-weight:bold;
+}
+
+.bib-title a{
+	font-weight:bold;
+	color:black;
+}
+
+.bib-journal {
+	font-style: italic;
+}
+
+.bib-workshop{
+	font-style: italic;
+}
+
+.bib-article::marker {
+	content: "\f15c";
+	color: dodgerblue;
+}
+
+.bib-book::marker {
+	content: "\f02d"; /*  */
+	color:#228B22;
+}
+
+.bib-talk::marker {
+	content: "\f51c";
+	color: #FF8C00;
+}
+
+

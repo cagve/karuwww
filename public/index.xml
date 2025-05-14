@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carlos Aguilera Ventura</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Carlos Aguilera Ventura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Phd Candiate at , Toulouse, France. I am currently a PhD student at IRIT in Toulouse, France. Before beginning my doctoral studies, I completed a Bachelor&amp;rsquo;s degree in Philosophy at the University of Málaga and Interuniversity Master degree in Logic and Philosophy of Science.
+My research interests lie primarily in modal logic, with a particular focus on belief revision, causality, and counterfactual reasoning. I aim to explore how formal frameworks can better capture the dynamics of rational belief change and causal inference.</description>
+    </item>
+    
+    <item>
+      <title>An educational epistemic model checker for Philosophy students</title>
+      <link>http://example.org/ref/ventura2023educational/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/ventura2023educational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherentist vs. foundationalist belief revision: bringing them together</title>
+      <link>http://example.org/ref/venturacoherentist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/venturacoherentist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counterfactual reasoning via grounded distance</title>
+      <link>http://example.org/ref/aguilera2023counterfactual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2023counterfactual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diamonds, Boxes and Reasonables Doubts.</title>
+      <link>http://example.org/ref/aguilera2025ite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2025ite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ensayos sobre lógica y lenguaje en honor a Alfredo Burrieza</title>
+      <link>http://example.org/ref/ventura2023ensayos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/ventura2023ensayos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interests</title>
+      <link>http://example.org/interests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/interests/</guid>
+      <description> Modal Logic Epistemic Modal Logic Belief Revision Counterfactuals Causality  </description>
+    </item>
+    
+    <item>
+      <title>Minimal Change in Modal Logic S5</title>
+      <link>http://example.org/ref/aguilera2025minimal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ref/aguilera2025minimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>http://example.org/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/now/</guid>
+      <description>📚 Currently reading  Nuestra parte de noche - Enriquez, Mariana  💻 Currently working on  Splitting and Relevance in belief revision modal Logic  🧶 On the needles  Northland Sweater with Concept by Katia Reiki  </description>
+    </item>
+    
+    <item>
+      <title>Past</title>
+      <link>http://example.org/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/past/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://example.org/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

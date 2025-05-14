@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/about/</loc>
+  </url><url>
+    <loc>http://example.org/ref/ventura2023educational/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/ref/venturacoherentist/</loc>
+  </url><url>
+    <loc>http://example.org/ref/aguilera2023counterfactual/</loc>
+  </url><url>
+    <loc>http://example.org/ref/aguilera2025ite/</loc>
+  </url><url>
+    <loc>http://example.org/ref/ventura2023ensayos/</loc>
+  </url><url>
+    <loc>http://example.org/interests/</loc>
+  </url><url>
+    <loc>http://example.org/ref/aguilera2025minimal/</loc>
+  </url><url>
+    <loc>http://example.org/now/</loc>
+  </url><url>
+    <loc>http://example.org/past/</loc>
+  </url><url>
+    <loc>http://example.org/publications/</loc>
+  </url><url>
+    <loc>http://example.org/ref/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div id="main-container">
+	<div id="header-container">
+		<img id="profile-pic" src="/img/profile-pic.png" alt='dibujo digital de mi volando sobre una cometa con dos libros en la mano.' >
+		<h1 class="title">{{ .Site.Title }}</h1>
+		{{- partial "menu.html" . -}}
+	</div>
+	<div class="content">
+		{{ .Content }}
+	</div>
+
+</div>
+{{ end }}

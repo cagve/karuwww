@@ -1,0 +1,83 @@
+{{ define "main" }}
+<div id="main-container">
+	<div id="header-container">
+		<img id="profile-pic" src="/img/profile-pic.png" alt='dibujo digital de mi volando sobre una cometa con dos libros en la mano.' >
+		<h1 class="title">{{ .Site.Title }}</h1>
+		{{- partial "menu.html" . -}}
+	</div>
+	
+	<div id="content">
+		<div id="col-1">
+			<div id="about-container" class="content-container">
+				{{ with .Site.GetPage "about.md" }}
+					<h2>{{ .Title }}</h2>
+					{{ .Content }}
+				{{ end }}
+			</div>
+		</div>
+
+		<div id="col-2">
+			<div id="interests-container" class="content-container">
+				{{ with .Site.GetPage "interests.md" }}
+					<h2>{{ .Title }}</h2>
+					{{ .Content }}
+				{{ end }}
+			</div>
+			<div id="contact-container" class="content-container">
+				<h2> Contact </h2>
+				<ul>
+					<li>
+						<i class="fas fa-envelope"></i>
+						aguileraventuracarlos [at] gmail.com
+					</li>
+					<li>
+						<i class="fab fa-github"></i>
+						<a href="https://github.com/cagve" target="_blank">cagve</a>
+					</li>
+					<li>
+						<i class="fa-brands fa-ravelry"></i>
+						<a href="https://www.ravelry.com/projects/Knitkaru" target="_blank">knitkaru</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		async function extractTableFromWeb(url) {
+			try {
+				// 1. Hacer la solicitud HTTP
+				const response = await fetch(url);
+				const html = await response.text();
+
+				// 2. Parsear el HTML
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(html, 'text/html');
+
+				// 3. Extraer la tabla
+				const table = doc.querySelector('table.endtimes-table');
+				if (!table) {
+					console.error("No se encontró la tabla");
+					return [];
+				}
+
+				// 4. Extraer las filas
+				const rows = table.querySelectorAll('tbody tr');
+				const row = rows[0];
+				const titleLink = row.querySelector('td.name a:first-child');
+				const artistLink = row.querySelector('td.name a:nth-child(2)');
+				const timeLink = row.querySelector('td.time a');
+				const title = titleLink?.textContent.trim();
+				const artist = artistLink?.textContent.trim();
+				const time = timeLink?.textContent.trim();
+				console.log(title)
+				console.log(artist)
+				console.log(time)
+
+
+			} catch (error) {
+				return [];
+			}
+		}
+		extractTableFromWeb('https://libre.fm/user/karurosu16/recent-tracks');
+	</script>
+{{ end }}

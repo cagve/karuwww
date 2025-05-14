@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div id="main-container">
+	<div id="header-container">
+		<img id="profile-pic" src="/img/profile-pic.png" alt='dibujo digital de mi volando sobre una cometa con dos libros en la mano.' >
+		<h1 class="title">{{ .Site.Title }}</h1>
+		{{- partial "menu.html" . -}}
+	</div>
+	<div id="bib-content">
+		{{ $refs := where .Site.RegularPages "Type" "reference" }}
+		{{ range ($refs.GroupByParam "year" "desc") }}
+		<h2>{{ .Key }}</h2>
+		<ul class="references">
+			{{ range .Pages }}
+			<li class="bib-{{ .Params.ref_type }}">
+				{{ if .Title}}
+				<span class="bib-title">
+					{{ if .Params.web }}
+					<a href="{{ .Params.web }}"> {{ .Title }}</a>
+					{{ else }}
+					{{ .Title }} 
+					{{ end}}
+				</span>
+				{{ end }}
+			</li>
+			<div class="bib-item">
+				{{ if .Author }}
+				<span class="bib-author"> {{ .Params.author  }} </span></br>
+				{{ end }}
+			</div>
+			<div class="bib-item">
+			{{ if .Params.Booktitle}}
+			In <span class="bib-journal"> {{ .Params.Booktitle }} </span>
+			{{ end }}
+			{{ if .Params.workshop}}
+			In <span class="bib-workshop"> {{ .Params.workshop }} </span>
+			{{ end }}
+			{{ if .Params.volume }}
+			<span class="bib-volume "> {{ .Params.volume }} </span>,
+			{{ end }}
+			{{ if .Params.number }}
+			<span class="bib-number">  {{ .Params.number }} </span>,
+			{{ end }}
+			{{ if .Params.pages }}
+			pp. <span class="bib-pages">  {{ .Params.pages }} </span>
+			{{ end }}
+			{{ if .Params.year }}
+			<span class="bib-year">  ({{ .Params.year }}) </span>
+			{{ end }}
+			</div>
+			{{ end }}
+		</ul>
+		{{ end }}
+	</div>
+
+</div>
+{{ end }}

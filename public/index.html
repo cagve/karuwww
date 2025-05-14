@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head>
+	<meta name="generator" content="Hugo 0.92.2" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    
+    
+    <title>Carlos Aguilera Ventura</title>
+</head>
+<body><div id="content">
+<div id="main-container">
+	<div id="header-container">
+		<img id="profile-pic" src="/img/profile-pic.png" alt='dibujo digital de mi volando sobre una cometa con dos libros en la mano.' >
+		<h1 class="title">Carlos Aguilera Ventura</h1><nav id="menu" >
+	
+	<a class="nav-link" href="/">
+		
+		
+		<i data-feather="home"></i> 
+		
+		
+		Home
+	</a>
+	
+	<a class="nav-link" href="/publications/">
+		
+		
+		Publications
+	</a>
+	
+	<a class="nav-link" href="/now/">
+		
+		
+		Now
+	</a>
+	
+</nav>
+</div>
+	
+	<div id="content">
+		<div id="col-1">
+			<div id="about-container" class="content-container">
+				
+					<h2>About me</h2>
+					<p>Phd Candiate at , Toulouse, France. <!-- raw HTML omitted -->
+I am currently a PhD student at <a href="%22https://www.irit.fr/%22">IRIT</a> in Toulouse, France. Before beginning my doctoral studies, I completed a Bachelor&rsquo;s degree in Philosophy at the University of Málaga and Interuniversity Master degree in Logic and Philosophy of Science.</p>
+<p>My research interests lie primarily in modal logic, with a particular focus on belief revision, causality, and counterfactual reasoning. I aim to explore how formal frameworks can better capture the dynamics of rational belief change and causal inference.</p>
+
+				
+			</div>
+		</div>
+
+		<div id="col-2">
+			<div id="interests-container" class="content-container">
+				
+					<h2>Interests</h2>
+					<ul>
+<li>Modal Logic</li>
+<li>Epistemic Modal Logic</li>
+<li>Belief Revision</li>
+<li>Counterfactuals</li>
+<li>Causality</li>
+</ul>
+
+				
+			</div>
+			<div id="contact-container" class="content-container">
+				<h2> Contact </h2>
+				<ul>
+					<li>
+						<i class="fas fa-envelope"></i>
+						aguileraventuracarlos [at] gmail.com
+					</li>
+					<li>
+						<i class="fab fa-github"></i>
+						<a href="https://github.com/cagve" target="_blank">cagve</a>
+					</li>
+					<li>
+						<i class="fa-brands fa-ravelry"></i>
+						<a href="https://www.ravelry.com/projects/Knitkaru" target="_blank">knitkaru</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		async function extractTableFromWeb(url) {
+			try {
+				
+				const response = await fetch(url);
+				const html = await response.text();
+
+				
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(html, 'text/html');
+
+				
+				const table = doc.querySelector('table.endtimes-table');
+				if (!table) {
+					console.error("No se encontró la tabla");
+					return [];
+				}
+
+				
+				const rows = table.querySelectorAll('tbody tr');
+				const row = rows[0];
+				const titleLink = row.querySelector('td.name a:first-child');
+				const artistLink = row.querySelector('td.name a:nth-child(2)');
+				const timeLink = row.querySelector('td.time a');
+				const title = titleLink?.textContent.trim();
+				const artist = artistLink?.textContent.trim();
+				const time = timeLink?.textContent.trim();
+				console.log(title)
+				console.log(artist)
+				console.log(time)
+
+
+			} catch (error) {
+				return [];
+			}
+		}
+		extractTableFromWeb('https://libre.fm/user/karurosu16/recent-tracks');
+	</script>
+
+        </div></body>
+</html>
