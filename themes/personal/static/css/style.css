@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@font-face {
+  font-family: "Overlock";
+  src: url("fonts/Overlock-Regular.ttf") format(truetype);
+}
 
 html{
 	--s: 100px; 
@@ -13,7 +16,7 @@ html{
 }
 
 body {
-	font-family: 'Overlock',sans-serif;
+	font-family: 'Overlock';
 	font-size: 18px;
 	/* background-image: url("/img/background.jpg"); */
 	/* background-size: cover; */
@@ -87,8 +90,7 @@ ul.references > li {
 }
 
 ul.references > li::marker {
-  font-family: FontAwesome;
-  font-size: var(--icon-size);
+	list-style: square;
 }
 
 .bib-item {
@@ -112,17 +114,14 @@ ul.references > li::marker {
 }
 
 .bib-article::marker {
-	content: "\f15c";
 	color: dodgerblue;
 }
 
 .bib-book::marker {
-	content: "\f02d"; /*  */
 	color:#228B22;
 }
 
 .bib-talk::marker {
-	content: "\f51c";
 	color: #FF8C00;
 }
 
