@@ -42,42 +42,4 @@
 			</div>
 		</div>
 	</div>
-	<script>
-		async function extractTableFromWeb(url) {
-			try {
-				// 1. Hacer la solicitud HTTP
-				const response = await fetch(url);
-				const html = await response.text();
-
-				// 2. Parsear el HTML
-				const parser = new DOMParser();
-				const doc = parser.parseFromString(html, 'text/html');
-
-				// 3. Extraer la tabla
-				const table = doc.querySelector('table.endtimes-table');
-				if (!table) {
-					console.error("No se encontró la tabla");
-					return [];
-				}
-
-				// 4. Extraer las filas
-				const rows = table.querySelectorAll('tbody tr');
-				const row = rows[0];
-				const titleLink = row.querySelector('td.name a:first-child');
-				const artistLink = row.querySelector('td.name a:nth-child(2)');
-				const timeLink = row.querySelector('td.time a');
-				const title = titleLink?.textContent.trim();
-				const artist = artistLink?.textContent.trim();
-				const time = timeLink?.textContent.trim();
-				console.log(title)
-				console.log(artist)
-				console.log(time)
-
-
-			} catch (error) {
-				return [];
-			}
-		}
-		extractTableFromWeb('https://libre.fm/user/karurosu16/recent-tracks');
-	</script>
 {{ end }}

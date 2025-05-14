@@ -19,3 +19,8 @@ min_version = "0.41.0"
   name = ""
   homepage = ""
   repo = ""
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
