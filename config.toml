@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://cagve.github.io/karuwww/'
 languageCode = 'en-us'
 title = 'Carlos Aguilera Ventura'
 theme = "personal"
