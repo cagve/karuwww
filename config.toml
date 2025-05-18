@@ -1,8 +1,8 @@
-baseURL = 'https://cagve.github.io/karuwww/'
-canonifyURLs = true
 languageCode = 'en-us'
 title = 'Carlos Aguilera Ventura'
 theme = "personal"
+uglyURLs = true
+#baseURL='192.168.1.101'
 
 [menu]
   [[menu.main]]

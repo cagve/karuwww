@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://cagve.github.io/karuwww/about/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/ventura2023educational/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/categories/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/venturacoherentist/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/aguilera2023counterfactual/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/aguilera2025ite/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/ventura2023ensayos/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/interests/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/aguilera2025minimal/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/now/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/past/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/publications/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/ref/</loc>
-  </url><url>
-    <loc>https://cagve.github.io/karuwww/tags/</loc>
+    <loc>/about.html</loc>
   </url>
+  
+  <url>
+    <loc>/ref/ventura2023educational.html</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>/ref/venturacoherentist.html</loc>
+  </url>
+  
+  <url>
+    <loc>/ref/aguilera2023counterfactual.html</loc>
+  </url>
+  
+  <url>
+    <loc>/ref/aguilera2025ite.html</loc>
+  </url>
+  
+  <url>
+    <loc>/ref/ventura2023ensayos.html</loc>
+  </url>
+  
+  <url>
+    <loc>/interests.html</loc>
+  </url>
+  
+  <url>
+    <loc>/ref/aguilera2025minimal.html</loc>
+  </url>
+  
+  <url>
+    <loc>/now/</loc>
+  </url>
+  
+  <url>
+    <loc>/past.html</loc>
+  </url>
+  
+  <url>
+    <loc>/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>/ref.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+  </url>
+  
 </urlset>

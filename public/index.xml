@@ -2,87 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carlos Aguilera Ventura</title>
-    <link>https://cagve.github.io/karuwww/</link>
+    <link>/</link>
     <description>Recent content on Carlos Aguilera Ventura</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://cagve.github.io/karuwww/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>https://cagve.github.io/karuwww/about/</link>
+      <link>/about.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/about/</guid>
-      <description>Phd Candiate at , Toulouse, France. I am currently a PhD student at IRIT in Toulouse, France. Before beginning my doctoral studies, I completed a Bachelor&amp;rsquo;s degree in Philosophy at the University of Málaga and Interuniversity Master degree in Logic and Philosophy of Science.&#xA;My research interests lie primarily in modal logic, with a particular focus on belief revision, causality, and counterfactual reasoning. I aim to explore how formal frameworks can better capture the dynamics of rational belief change and causal inference.</description>
+      
+      <guid>/about.html</guid>
+      <description>Phd Candiate at , Toulouse, France. I am currently a PhD student at IRIT in Toulouse, France. Before beginning my doctoral studies, I completed a Bachelor&amp;rsquo;s degree in Philosophy at the University of Málaga and Interuniversity Master degree in Logic and Philosophy of Science.
+My research interests lie primarily in modal logic, with a particular focus on belief revision, causality, and counterfactual reasoning. I aim to explore how formal frameworks can better capture the dynamics of rational belief change and causal inference.</description>
     </item>
+    
     <item>
       <title>An educational epistemic model checker for Philosophy students</title>
-      <link>https://cagve.github.io/karuwww/ref/ventura2023educational/</link>
+      <link>/ref/ventura2023educational.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/ventura2023educational/</guid>
+      
+      <guid>/ref/ventura2023educational.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Coherentist vs. foundationalist belief revision: bringing them together</title>
-      <link>https://cagve.github.io/karuwww/ref/venturacoherentist/</link>
+      <link>/ref/venturacoherentist.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/venturacoherentist/</guid>
+      
+      <guid>/ref/venturacoherentist.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Counterfactual reasoning via grounded distance</title>
-      <link>https://cagve.github.io/karuwww/ref/aguilera2023counterfactual/</link>
+      <link>/ref/aguilera2023counterfactual.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/aguilera2023counterfactual/</guid>
+      
+      <guid>/ref/aguilera2023counterfactual.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Diamonds, Boxes and Reasonables Doubts.</title>
-      <link>https://cagve.github.io/karuwww/ref/aguilera2025ite/</link>
+      <link>/ref/aguilera2025ite.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/aguilera2025ite/</guid>
+      
+      <guid>/ref/aguilera2025ite.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Ensayos sobre lógica y lenguaje en honor a Alfredo Burrieza</title>
-      <link>https://cagve.github.io/karuwww/ref/ventura2023ensayos/</link>
+      <link>/ref/ventura2023ensayos.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/ventura2023ensayos/</guid>
+      
+      <guid>/ref/ventura2023ensayos.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Interests</title>
-      <link>https://cagve.github.io/karuwww/interests/</link>
+      <link>/interests.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/interests/</guid>
-      <description> Modal Logic Epistemic Modal Logic Belief Revision Counterfactuals Causality </description>
+      
+      <guid>/interests.html</guid>
+      <description> Modal Logic Epistemic Modal Logic Belief Revision Counterfactuals Causality  </description>
     </item>
+    
     <item>
       <title>Minimal Change in Modal Logic S5</title>
-      <link>https://cagve.github.io/karuwww/ref/aguilera2025minimal/</link>
+      <link>/ref/aguilera2025minimal.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/ref/aguilera2025minimal/</guid>
+      
+      <guid>/ref/aguilera2025minimal.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Now</title>
-      <link>https://cagve.github.io/karuwww/now/</link>
+      <link>/now/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/now/</guid>
-      <description>📚 Currently reading Nuestra parte de noche - Enriquez, Mariana 💻 Currently working on Splitting and Relevance in belief revision modal Logic 🧶 On the needles Northland Sweater with Concept by Katia Reiki </description>
+      
+      <guid>/now/</guid>
+      <description>📚 Currently reading  Nuestra parte de noche - Enriquez, Mariana  💻 Currently working on  Splitting and Relevance in belief revision modal Logic  🧶 On the needles  Northland Sweater with Concept by Katia Reiki  </description>
     </item>
+    
     <item>
       <title>Past</title>
-      <link>https://cagve.github.io/karuwww/past/</link>
+      <link>/past.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/past/</guid>
+      
+      <guid>/past.html</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Publications</title>
-      <link>https://cagve.github.io/karuwww/publications/</link>
+      <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cagve.github.io/karuwww/publications/</guid>
+      
+      <guid>/publications/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>
