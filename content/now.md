@@ -10,4 +10,4 @@ layout: "now"
 - Splitting and Relevance in belief revision modal Logic
 
 ### 🧶 On the needles
-- [Northland Sweater](https://ravel.me/Knitkaru/ns2) with [Concept by Katia Reiki](https://www.ravelry.com/yarns/library/concept-by-katia-reiki)
+- [Exospine](https://www.ravelry.com/patterns/library/exospine).
