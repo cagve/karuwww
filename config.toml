@@ -1,8 +1,9 @@
-baseURL = 'https://cagve.github.io/karuwww/'
+baseURL = 'https://karuwww.neocities.org'
 canonifyURLs = true
 languageCode = 'en-us'
 title = 'Carlos Aguilera Ventura'
 theme = "personal"
+
 
 [menu]
   [[menu.main]]
